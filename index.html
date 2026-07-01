@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NutriPro Club · Manual de Identidad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0C0C0E;--surface:#17171B;--cel:#3FD0DD;--hueso:#F4F2ED;--gris:#A7B0B8;--line:#24242a}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:
+      radial-gradient(1100px 640px at 82% -6%,rgba(63,208,221,.08),transparent 60%),
+      radial-gradient(900px 620px at -8% 22%,rgba(63,208,221,.05),transparent 55%),
+      var(--bg);
+    color:var(--hueso);font-family:'Inter',system-ui,sans-serif;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:40px 22px;gap:6px}
+  .kicker{color:var(--gris);letter-spacing:.3em;font-size:11px;font-weight:600;text-transform:uppercase;margin-bottom:14px}
+  .wm{font-family:'Fraunces',Georgia,serif;font-size:clamp(38px,9vw,62px);font-weight:600;line-height:1}
+  .wm .pro{color:var(--cel)} .wm .club{color:var(--gris);font-weight:400}
+  .sub{color:var(--gris);font-size:15px;margin-top:12px;max-width:440px}
+  .cards{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:38px;width:100%;max-width:620px}
+  a.card{flex:1 1 240px;text-decoration:none;color:var(--hueso);background:var(--surface);
+    border:1px solid var(--line);border-radius:18px;padding:26px 22px;transition:border-color .18s,transform .18s;
+    display:flex;flex-direction:column;align-items:center;gap:12px}
+  a.card:hover{border-color:rgba(63,208,221,.5);transform:translateY(-2px)}
+  .badge{width:58px;height:58px;border-radius:14px;border:1.5px solid var(--cel);display:flex;align-items:center;justify-content:center}
+  .np{font-family:'Fraunces',serif;font-weight:600;font-size:22px}
+  .np .p{color:var(--cel)}
+  .diana{width:30px;height:30px;border-radius:50%;border:3px solid var(--cel);display:flex;align-items:center;justify-content:center}
+  .diana i{width:9px;height:9px;border-radius:50%;background:var(--cel)}
+  .ct{font-size:17px;font-weight:600} .cd{color:var(--gris);font-size:13px}
+  .go{margin-top:6px;color:var(--cel);font-size:13px;font-weight:600;letter-spacing:.04em}
+  .foot{color:#5a5a64;font-size:12px;margin-top:40px;line-height:1.6}
+</style>
+</head>
+<body>
+  <div class="kicker">Rebranding · Edición 2026</div>
+  <div class="wm">Nutri<span class="pro">Pro</span> <span class="club">Club</span></div>
+  <div class="sub">Manual de Identidad de Marca. Elegí una versión del logo para ver el manual completo.</div>
+
+  <div class="cards">
+    <a class="card" href="logo-a.html">
+      <div class="badge"><span class="np">N<span class="p">P</span></span></div>
+      <div class="ct">Opción A · "NP"</div>
+      <div class="cd">Monograma con las iniciales</div>
+      <div class="go">Ver manual →</div>
+    </a>
+    <a class="card" href="logo-b.html">
+      <div class="badge"><span class="diana"><i></i></span></div>
+      <div class="ct">Opción B · "Foco"</div>
+      <div class="cd">La diana como ícono</div>
+      <div class="go">Ver manual →</div>
+    </a>
+  </div>
+
+  <div class="foot">con Agus Ramon · nutrición deportiva</div>
+</body>
+</html>
