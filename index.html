@@ -518,7 +518,7 @@ function markSvg(px, ink, fill){
     + '<path fill="'+ink+'" fill-rule="evenodd" d="'+NU_SIL+'"/>' + fillP + '</svg>';
 }
 function badge(px, circleBg, ink, fill){
-  var inner = Math.round(px*1.17);
+  var inner = Math.round(px*1.52);
   return '<div style="width:'+px+'px;height:'+px+'px;border-radius:50%;background:'+circleBg+';display:flex;align-items:center;justify-content:center;flex:0 0 auto">'+markSvg(inner, ink, fill)+'</div>';
 }
 // sqBox(px, mode): dibuja el logo NU. mode: principal | mono(sobre oscuro) | fill(sobre celeste) | light
